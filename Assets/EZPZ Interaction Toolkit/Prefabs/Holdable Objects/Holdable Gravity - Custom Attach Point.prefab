@@ -53,19 +53,15 @@ MonoBehaviour:
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
-  onSecondaryInteract:
+  onPrimaryInteractLift:
     m_PersistentCalls:
       m_Calls: []
-  onPrimaryInteractLift:
+  onSecondaryInteract:
     m_PersistentCalls:
       m_Calls: []
   onSecondaryInteractLift:
     m_PersistentCalls:
       m_Calls: []
-  customTouchDistance: -1
-  customHoldDistance: -1
-  restrictSecondaryToHeldOnly: 0
-  heldText: 
   onHoverEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -73,21 +69,40 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverText: 
-  onFirstInteract:
+  customTouchDistance: -1
+  heldText: 
+  restrictSecondaryToHeldOnly: 0
+  customHoldDistance: -1
+  eventRelay: {fileID: 0}
+  onPrimaryInteractBackground:
     m_PersistentCalls:
       m_Calls: []
-  eventRelay: {fileID: 0}
+  onPrimaryInteractLiftBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryInteractBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryInteractLiftBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverEnterBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverExitBackground:
+    m_PersistentCalls:
+      m_Calls: []
   onDrop:
     m_PersistentCalls:
       m_Calls: []
   attachPoint: {fileID: 0}
-  throwForce: 0
+  throwForceFactor: 0
+  maxThrowHoldTime: 2
   noCollideOnHold: 1
   groundPlace: 0
   dropOnKeyLift: 0
   groundPlaceOffset: {x: 0, y: 0, z: 0}
   freezeRotation: 0
-  snapSpeed: 20
   startingPosition: {x: 0, y: 0, z: 0}
   startingRotation: {x: 0, y: 0, z: 0, w: 0}
   myRbody: {fileID: 0}
@@ -122,7 +137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 9452ae1262a74094f8a68013fbcd1834, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -260,7 +275,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 9452ae1262a74094f8a68013fbcd1834, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -350,7 +365,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 9452ae1262a74094f8a68013fbcd1834, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
